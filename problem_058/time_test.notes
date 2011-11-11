@@ -1,0 +1,9 @@
+time perl problem_058_myself3_2.pl 40000
+real	0m5.505s
+user	0m5.336s
+sys	0m0.012s
+
+time perl problem_058_myself4_3.pl 20000
+real	0m5.294s
+user	0m5.168s
+sys	0m0.032s

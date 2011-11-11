@@ -1,0 +1,15 @@
+for target is:9
+sum is:23
+using time is:2.5e-05
+for target is:99
+sum is:2318
+using time is:4.4e-05
+for target is:999
+sum is:233168
+using time is:5.3e-05
+for target is:9999
+sum is:23331668
+using time is:6.3e-05
+for target is:99999
+sum is:2333316668
+using time is:7.2e-05

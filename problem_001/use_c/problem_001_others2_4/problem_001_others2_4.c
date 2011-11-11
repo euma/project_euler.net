@@ -1,0 +1,18 @@
+#include <stdio.h>
+#include <math.h>
+
+double mcp1(double n, double m);
+/* Calculate the sum of all multiples of 3 or 5 bellow 1000 */
+
+//int main(int argc, char *argv[]) {
+int main() {
+  printf("--- %.1f\n", mcp1(3.0, 999.0) + mcp1(5.0, 999.0) - mcp1(15.0, 999.0));
+
+  return 0;
+}
+
+double mcp1(double n, double m) {
+  //double floor(double x);
+  double fl = floor(m/n);
+  return n * fl * (fl + 1) / 2;
+}

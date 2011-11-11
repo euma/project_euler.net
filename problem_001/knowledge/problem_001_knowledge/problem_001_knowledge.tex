@@ -1,0 +1,45 @@
+\documentclass{article}
+\usepackage{amsmath}
+\begin{document}
+%int(999/3)(int(999/3)+1)3/2 + int(999/5)(int(999/5)+1)5/2 - int(999/15)(int(999/15)+1)15/2
+
+\begin{equation}
+Sum=\frac{3\lfloor\frac{999}{3}\rfloor(\lfloor\frac{999}{3}\rfloor+1)}{2} + \frac{5\lfloor\frac{999}{5}\rfloor(\lfloor\frac{999}{5}\rfloor+1)}{2} - \frac{15\lfloor\frac{999}{15}\rfloor(\lfloor\frac{999}{15}\rfloor+1)}{2}
+\end{equation}
+
+\begin{equation}
+sum = \frac{\frac{999}{3}(2*3+(\frac{999}{3}-1)*3)}{2} + \frac{\frac{999}{5}(2*5+(\frac{999}{5}-1)5)}{2} + \frac{\frac{999}{15}(2*15+(\frac{999}{15}-1)*15)}{2};
+\end{equation}
+
+%\begin{equation}
+%\sum_{i=1}^{n} i = 1 + 2 + ... + n
+%=\frac{n(n+1)}{2}
+%\end{equation}
+\begin{align}
+\sum_{i=1}^{n} i = 1 + 2 + ... + n \\
+=\frac{n(n+1)}{2}
+\end{align}
+arithmetic Sequence
+$$bottom=a,top=a+(n-1)q$$
+
+\begin{align}
+\sum_{i=0}^{n-1} a+iq = a + (a+q) + (a+2q) + ... + (a+(n-1)q) \\
+= n\,a + (1+2+ ... +(n-1))q\\
+= n\,a + \frac{(n-1)nq}{2}\\
+= n\,(a + \frac{(n-1)q}{2})\\
+= n\,(\frac{a + a +(n-1)q}{2})\\
+= n\,(\frac{bottom + top}{2})
+\end{align}
+
+arithmetic Sequence for a=q
+$$bottom=q,top=nq,n=\frac{top}{bottom}$$
+
+\begin{align}
+\sum_{i=1}^{n} iq = q + (2q) + (3q) + ... + (nq) \\
+= (1+2+ ... +n))q\\
+= \frac{n(n+1)q}{2}\\
+= \frac{n(q+nq)}{2}\\
+= \frac{top}{bottom}\frac{bottom + top}{2}
+\end{align}
+
+\end{document}

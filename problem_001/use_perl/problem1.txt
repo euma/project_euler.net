@@ -1,0 +1,15 @@
+for target is:10
+sum is:23
+using time is:2.2e-05
+for target is:100
+sum is:2318
+using time is:6.5e-05
+for target is:1000
+sum is:233168
+using time is:0.000332
+for target is:10000
+sum is:23331668
+using time is:0.002979
+for target is:100000
+sum is:2333316668
+using time is:0.029589
